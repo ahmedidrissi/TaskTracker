@@ -7,9 +7,11 @@
         <label for="day">Day & Time</label>
         <input type="text" name="day" [(ngModel)]="day" id="day" placeholder="Add Day & Time" /> 
     </div>
-    <div class="form-control form-control-check">
-        <label for="reminder">Set Reminder</label>
-        <input type="checkbox" name="reminder" [(ngModel)]="reminder" id="reminder" />
+    <div class="form-control form-control-check">        
+        <label class="checkbox-container">Set Reminder
+            <input type="checkbox" name="reminder" [(ngModel)]="reminder" id="reminder" />
+            <span class="checkmark"></span>
+        </label>
     </div>
     <input type="submit" value="Save Task" class="btn btn-block" />
 </form>

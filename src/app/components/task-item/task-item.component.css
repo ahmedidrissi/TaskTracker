@@ -1,12 +1,13 @@
 .task {
-    background: #f4f4f4;
+    background: var(--secondary-bg-color);
+    border-radius: 5px;
     margin: 5px;
     padding: 10px 20px;
     cursor: pointer;
 }
 
 .task.reminder {
-    border-left: 5px solid green;
+    border-left: 5px solid var(--color-1);
 }
 
 .task h3 {

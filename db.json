@@ -15,7 +15,7 @@
     {
       "text": "Sport",
       "day": "July 8th at 8:00am",
-      "reminder": true,
+      "reminder": false,
       "id": 4
     }
   ]
