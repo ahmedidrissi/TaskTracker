@@ -1,5 +1,5 @@
 <header>
-    <h1>{{title}}</h1>
+    <a routerLink="/">{{title}}</a>
     <app-button 
     *ngIf="hasRoute('/tasks')"
     color="{{showAddTask ? 'var(--color-2)' : 'var(--color-3)'}}"
