@@ -2,7 +2,19 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.1.
 
-<img align="center" src="./results/img.png"></img>
+<img align="center" src="./results/img1.png"></img>
+<br>
+<br>
+<img align="center" src="./results/img2.png"></img>
+<br>
+<br>
+<img align="center" src="./results/img3.png"></img>
+<br>
+<br>
+<img align="center" src="./results/img4.png"></img>
+<br>
+<br>
+<img align="center" src="./results/img5.png"></img>
 
 ## Development server
 
