@@ -7,11 +7,7 @@ import { getFirestore } from "firebase/firestore";
 import { collection, query, where, getDocs, updateDoc, addDoc, deleteDoc, doc } from "firebase/firestore";
 import { environment } from 'src/environments/environment.development';
 
-// Your web app's Firebase configuration
-const firebaseConfig = environment.firebase;
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
+const app = initializeApp(environment.firebase);
 const db = getFirestore(app);
 
 const httpOptions = {

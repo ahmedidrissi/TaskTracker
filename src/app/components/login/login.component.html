@@ -1,12 +1,16 @@
-<form class="login-form" (ngSubmit)="''">
+<!-- create a login form -->
+<form [formGroup]="registerForm" class="login-form" (ngSubmit)="onSubmit()">
   <div class="form-control">
-    <label for="password">Username</label>
-    <input type="text" name="username" id="username" placeholder="Enter your username" />
+    <label for="email">Email</label>
+    <input formControlName="email" type="email" name="email" id="email" placeholder="Enter your email" />
   </div>
   <div class="form-control">
     <label for="password">Password</label>
-    <input type="password" name="password" id="password" placeholder="Enter your password" />
+    <input formControlName="password" type="password" name="password" id="password" placeholder="Enter your password" />
   </div>
   <input type="submit" value="Login" class="btn btn-block" />
   <p>Don't have an account? <a routerLink="/signup">Sign Up</a></p>
 </form>
+
+
+
