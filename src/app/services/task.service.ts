@@ -7,9 +7,6 @@ import { getFirestore } from "firebase/firestore";
 import { collection, query, where, getDocs, updateDoc, addDoc, deleteDoc, doc } from "firebase/firestore";
 import { environment } from 'src/environments/environment.development';
 
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
 // Your web app's Firebase configuration
 const firebaseConfig = environment.firebase;
 
