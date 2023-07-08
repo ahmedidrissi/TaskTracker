@@ -28,6 +28,9 @@ export class LoginComponent implements OnInit {
     signInWithEmailAndPassword(auth, this.registerForm.value.email, this.registerForm.value.password)
     .then((userCredential) => {
       const user = userCredential.user;
+      user.getIdToken().then((idToken) => {
+        localStorage.setItem('token', idToken);
+      });
       this.router.navigate(['/tasks']);
     
     })

@@ -36,6 +36,7 @@ export class TasksComponent implements OnInit {
   logout(): void {
     signOut(auth).then(() => {
       console.log('Sign-out successful.');
+      localStorage.removeItem('token');
       this.router.navigate(['/login']);
     }).catch((error) => {
       console.log(error);
