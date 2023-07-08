@@ -27,9 +27,7 @@ export class LoginComponent implements OnInit {
   onSubmit() {
     signInWithEmailAndPassword(auth, this.registerForm.value.email, this.registerForm.value.password)
     .then((userCredential) => {
-      // Signed in 
       const user = userCredential.user;
-      // go to home route    
       this.router.navigate(['/tasks']);
     
     })
