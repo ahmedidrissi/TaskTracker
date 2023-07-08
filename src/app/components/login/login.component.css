@@ -1,0 +1,18 @@
+.login-form p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-form a {
+    text-decoration: none;
+    color: var(--color-1);
+}
+
+.login-form a:focus {
+    color: var(--color-3);
+}
+
+.login-form input[type="submit"] {
+    background-color: var(--color-3);
+    font-weight: bold;
+}

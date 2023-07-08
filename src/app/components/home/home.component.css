@@ -1,0 +1,23 @@
+.get-started {
+    height: 250px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.get-started a {
+    text-decoration: none;
+    text-align: center;
+    color: var(--main-text-color);
+    background-color: var(--color-3);
+    border: none;
+    padding: 20px 10px;
+    border-radius: 10px;
+    width: 250px;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}

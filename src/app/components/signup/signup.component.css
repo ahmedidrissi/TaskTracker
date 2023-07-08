@@ -1,0 +1,18 @@
+.signup-form p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.signup-form a {
+    text-decoration: none;
+    color: var(--color-1);
+}
+
+.signup-form a:focus {
+    color: var(--color-3);
+}
+
+.signup-form input[type="submit"] {
+    background-color: var(--color-3);
+    font-weight: bold;
+}
